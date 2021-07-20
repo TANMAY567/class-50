@@ -1,0 +1,35 @@
+h1 {
+    color: brown;
+    background-color:aquamarine
+}
+
+* {
+    border: solid;
+}
+
+.header{
+    background-color: chartreuse;
+    display:flex;
+    justify-content:space-between;
+}
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    flex-shrink:10;
+}
+
+.item{
+    background-color: cornflowerblue;
+    text-align: center;
+    
+}
+
+.logos{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+}
+
+
